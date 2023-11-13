@@ -18,7 +18,7 @@ Check out some features of Listeem at [Features Link](https://listeem.com/featur
 
 ## Installation
 
-To get started with Listeem, follow these steps:
+Listeem is provided in the form of a Docker container stored publicly on Dockerhub. To get started, follow these steps:
 
 1. **Clone the repository:**
     ```bash
@@ -39,7 +39,7 @@ To get started with Listeem, follow these steps:
 
 4. **(Optional) Add your own SSL certificate for HTTPS:**
     
-    Create a folder named 'ssl' and add your 'privkey.pem' and 'fullchain.pem' files to this folder. They have to be named exactly this way.
+    Create a folder named `ssl` and add your `privkey.pem` and `fullchain.pem` files to this folder. They have to be named exactly this way.
 
 5. **Run the application:**
     ```bash
