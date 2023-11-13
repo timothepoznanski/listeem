@@ -2,7 +2,7 @@
 
 Welcome to Listeem! 🚀 
 
-Listeem is a simple to do list webapp.
+Listeem is a simple to-do list web app.
 
 ## Table of Contents
 - [Installation](#installation)
