@@ -29,20 +29,28 @@ To get started with Listeem, follow these steps:
     
     Copy the `env_template` file to a `.env` file.
     
-    Modify the `.env` file with your settings.
+    Modify the `.env` file with your settings following instructions commented in the file.
 
 4. **(Optional) Add your own SSL certificate for HTTPS:**
     
-    Create a folder 'ssl' and add your 'privkey.pem' and 'fullchain.pem' files into this folder. They have to be named exaclty this way. 
+    Create a folder named 'ssl' and add your 'privkey.pem' and 'fullchain.pem' files to this folder. They have to be named exactly this way.
 
 5. **Run the application:**
     ```bash
-    docker compose -p listeem-prod -f docker-compose.yml up -d
+    docker compose up -d
     ```
 
 Now, the Listeem application should be up and running. Open your web browser and visit `http://your-server-domain:8077` to view it.
 
 You may open it in https with the self signed certificate or your own certificate by opening your web browser and visit `https://your-server-domain:8078` to view it.
+
+In case you get the following error:
+
+ ```bash
+    BDD connection error : Connection refused
+ ```
+
+ don't panic, the database is probably still initializing. Wait a few seconds and refresh the page.
 
 ## Features
 
