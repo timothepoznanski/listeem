@@ -7,9 +7,6 @@ Listeem is a simple to do list webapp.
 ## Table of Contents
 - [Installation](#installation)
 - [Demo](#demo)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
