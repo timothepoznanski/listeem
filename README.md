@@ -48,11 +48,20 @@ Now, the Listeem application should be up and running. Open your web browser and
 
 You may open it in https with the self signed certificate or your own certificate by opening your web browser and visit `https://your-server-domain:8078` to view it.
 
-In case you get the following error:
+## Possible errors
+
+**Case 1**
 
  ```bash
     BDD connection error : Connection refused
  ```
 
- don't panic, the database is probably still initializing. Wait a few seconds and refresh the page.
+The database is probably still initializing. Wait a few seconds and refresh the page.
 
+**Case 2**
+
+ ```bash
+    Bad Request
+ ```
+
+You are probably trying to open the url on HTTPS port (probably 8078). Add 'https://' in front of your url or change port to HTTP port (probably 8077).
