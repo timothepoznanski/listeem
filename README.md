@@ -59,7 +59,7 @@ To view it in HTTP, open your web browser and visit:
 
 To view it in HTTPS (with the self signed certificate or your own certificate), open your web browser and visit:
 
- `https://your-server-domain:8078`.
+ `https://your-server-domain:8078`
 
 ## Possible errors
 
