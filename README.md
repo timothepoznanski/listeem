@@ -4,7 +4,10 @@ Welcome to Listeem! 🚀
 
 Listeem is a simple to-do list web app.
 
-Among the many to-do list tools already available, it's not always easy to find one that suits our needs. Options are either overloaded with features or lack essentials. Listeem was therefore designed with an emphasis on simplicity and the essentials for effective to-do list management. We hope you'll like it!
+Among the many to-do list tools already available, it's not always easy to find one that suits our needs. Options are either overloaded with features or lack essentials. Listeem was therefore designed with an emphasis on simplicity and the essentials for effective to-do list management.
+
+![capture2](https://github.com/Pozinux/listeem/assets/8541705/f65fb1e8-244e-4784-8729-1feb6ac31eef)
+
 
 ## Table of Contents
 - [Features](#features)
