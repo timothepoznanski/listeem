@@ -41,6 +41,10 @@ Listeem is provided in the form of a Docker container stored publicly on Dockerh
     
     Create a folder named `ssl` and add your `privkey.pem` and `fullchain.pem` files to this folder. They have to be named exactly this way.
 
+At this step, you should have the following directories and files:
+
+![image](https://github.com/Pozinux/listeem/assets/8541705/e9ed9198-04bd-4a8d-88ec-b27e5c2adc80)
+
 5. **Run the application:**
     ```bash
     docker compose up -d
