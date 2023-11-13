@@ -18,7 +18,7 @@ Check out some features of Listeem at [Features Link](https://listeem.com/featur
 
 ## Installation
 
-Listeem is provided in the form of a Docker container stored publicly on Dockerhub. To get started, follow these steps:
+Listeem is provided in the form of a Docker container publicly stored on Docker Hub. To get started, follow these steps:
 
 1. **Clone the repository:**
     ```bash
@@ -51,9 +51,11 @@ At this step, you should have the following directories and files:
     docker compose up -d
     ```
 
-Now, the Listeem application should be up and running. Open your web browser and visit `http://your-server-domain:8077` to view it.
+Now, the Listeem application should be up and running. 
 
-You may open it in https with the self signed certificate or your own certificate by opening your web browser and visit `https://your-server-domain:8078` to view it.
+Open your web browser and visit `http://your-server-domain:8077` to view it in HTTP.
+
+You may open it in HTTPS with the self signed certificate or your own certificate by opening your web browser and visit `https://your-server-domain:8078`.
 
 ## Possible errors
 
