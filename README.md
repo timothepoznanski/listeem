@@ -53,9 +53,13 @@ At this step, you should have the following directories and files:
 
 Now, the Listeem application should be up and running. 
 
-Open your web browser and visit `http://your-server-domain:8077` to view it in HTTP.
+To view it in HTTP, open your web browser and visit:
 
-You may open it in HTTPS with the self signed certificate or your own certificate by opening your web browser and visit `https://your-server-domain:8078`.
+`http://your-server-domain:8077`
+
+To view it in HTTPS (with the self signed certificate or your own certificate), open your web browser and visit:
+
+ `https://your-server-domain:8078`.
 
 ## Possible errors
 
