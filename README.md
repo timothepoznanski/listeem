@@ -12,10 +12,6 @@ Among the many to-do list tools already available, it's not always easy to find 
 
 ![capture](https://github.com/Pozinux/listeem/assets/8541705/486ac670-24b8-46b8-bc7d-1b7ae5619f63)
 
-## Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-
 ## Features
 
 Check out some features of Listeem at [Features Link](https://listeem.com/features.php)!
