@@ -2,6 +2,10 @@
 
 Welcome to Listeem! 🚀 
 
+If you want to contribute to this project, please visit [this link](https://github.com/Pozinux/listeem-app) where you will find the source code of Listeem.
+
+However, if you just want to install the latest version of Listeem and use it for yourself on your own server or computer, you are at the right place!
+
 Listeem is a simple to-do list web app.
 
 Among the many to-do list tools already available, it's not always easy to find one that suits our needs. Options are either overloaded with features or lack essentials. Listeem was therefore designed with an emphasis on simplicity and the essentials for effective to-do list management.
