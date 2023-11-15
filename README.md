@@ -88,7 +88,7 @@ To view it in HTTPS (with the self signed certificate or your own certificate), 
     BDD connection error : Connection refused
  ```
 
-The database is probably still initializing. Wait a few seconds and refresh the page.
+The database is probably still initializing. Wait a few seconds and refresh the page. Sometimes, the browser cache creates this problem, don't only refresh the page, change page and come back to this url.
 
 **Case 2**
 
