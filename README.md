@@ -85,13 +85,13 @@ To view it in HTTPS (with the self signed certificate or your own certificate), 
 **Case 1**
 
  ```bash
-    BDD connection error : Connection refused
+BDD connection error : Connection refused
  ```
 
 or 
 
  ```bash
-    Fatal error: Uncaught Error: Call to a member function execute()
+Fatal error: Uncaught Error: Call to a member function execute()
  ```
 
 The database is probably still initializing or it is a browser cache issue. Wait a few seconds, visit another web page and come back.
@@ -101,7 +101,7 @@ Note :  I have also encountered this error when the server runs out of memory
 **Case 2**
 
  ```bash
-    Bad Request
+Bad Request
  ```
 
 You are probably trying to open the url on HTTPS port (probably 8078). Add 'https://' in front of your url or change port to HTTP port (probably 8077).
