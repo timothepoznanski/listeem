@@ -54,15 +54,16 @@ Listeem is provided in the form of a Docker container publicly stored on Docker 
     SERVER_NAME=example.com
     #SSL_CERT_FILE=/etc/apache2/ssl/fullchain.pem
     #SSL_KEY_FILE=/etc/apache2/ssl/privkey.pem
+    #HTPASSWD_NAME=.htpasswd
     ```
 
-5. **(Optional) Add your own SSL certificate for HTTPS:**
+4. **(Optional) Add your own SSL certificate for HTTPS:**
     
-    Create a folder named `ssl` and add your `privkey.pem` and `fullchain.pem` files to this folder. They have to be named exactly this way.
+    Create a folder named `ssl` and add your `privkey.pem` and `fullchain.pem` files to this folder. 
+    
+    /!\ They have to be named exactly this way.
 
-At this step, you should have the following directories and files:
-
-![image](https://github.com/Pozinux/listeem/assets/8541705/e9ed9198-04bd-4a8d-88ec-b27e5c2adc80)
+    Uncomment `SSL_CERT_FILE=/etc/apache2/ssl/fullchain.pem` and `SSL_KEY_FILE=/etc/apache2/ssl/privkey.pem` in `.env` file.
 
 5. **Run the application:**
    
@@ -70,15 +71,25 @@ At this step, you should have the following directories and files:
     docker compose up -d
     ```
 
-Now, the Listeem application should be up and running. 
+    Now, the Listeem application should be up and running. 
 
-To view it in HTTP, open your web browser and visit:
+6. **Open the application:**
 
-`http://your-server-domain:8077`
+    To view it in HTTP, open your web browser and visit:
 
-To view it in HTTPS (with the self signed certificate or your own certificate), open your web browser and visit:
+    `http://YOUR-SERVER-DOMAIN:YOUR-HTTP-PORT`
 
- `https://your-server-domain:8078`
+    To view it in HTTPS (with the self signed certificate or your own certificate), open your web browser and visit:
+
+    `https://YOUR-SERVER-DOMAIN:YOUR-HTTPS-PORT`
+
+7. **Connect to the application:**
+
+    Connect with login `listeem` and password `listeem`
+
+## Contributing
+
+If you want to contribute to the code, don't hesitate to open a pull request. Thanks!
 
 ## Possible errors
 
