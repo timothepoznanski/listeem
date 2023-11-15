@@ -89,6 +89,7 @@ To view it in HTTPS (with the self signed certificate or your own certificate), 
  ```
 
 The database is probably still initializing or it is a browser cache issue. Wait a few seconds, visit another web page and come back.
+Note :  I have also encountered this error when the server runs out of memory
 
 **Case 2**
 
