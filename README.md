@@ -87,6 +87,8 @@ Listeem is provided in the form of a Docker container publicly stored on Docker 
 
     Connect with login `listeem` and password `listeem`
 
+NOTE : Working on possibility to change create its own user and password to connect. Not yet done.
+
 ## Contributing
 
 If you want to contribute to the code, don't hesitate to open a pull request. Thanks!
