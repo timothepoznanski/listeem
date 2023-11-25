@@ -12,7 +12,7 @@ Among the many to-do list tools already available, it's not always easy to find 
 
 ## Screenshot
 
-![capture1](https://github.com/Pozinux/listeem/assets/8541705/ce59edc9-570c-4d0f-a134-ec1adddba6f1)
+![2023-11-25_13h01_58](https://github.com/timothepoznanski/listeem/assets/8541705/828aa4d2-e2f0-4ec4-a481-57d614c92815)
 
 ## Features
 
