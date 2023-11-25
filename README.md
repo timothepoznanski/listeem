@@ -54,7 +54,7 @@ Listeem is provided in the form of a Docker container publicly stored on Docker 
     SERVER_NAME=example.com
     #SSL_CERT_FILE=/etc/apache2/ssl/fullchain.pem
     #SSL_KEY_FILE=/etc/apache2/ssl/privkey.pem
-    #HTPASSWD_NAME=.htpasswd
+    APP_PASSWORD=listeem
     ```
 
 4. **(Optional) Add your own SSL certificate for HTTPS:**
@@ -85,9 +85,7 @@ Listeem is provided in the form of a Docker container publicly stored on Docker 
 
 7. **Connect to the application:**
 
-    Connect with login `listeem` and password `listeem`
-
-NOTE : Working on possibility to change create its own user and password to connect. Not yet done.
+    Connect with default password `listeem` or the password you provided in the .env file.
 
 ## Contributing
 
