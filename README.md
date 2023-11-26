@@ -42,8 +42,6 @@ Listeem is provided in the form of a Docker container publicly stored on Docker 
     Example :
 
     ```bash
-    PROJECT_ID=3
-    COMPOSE_PROJECT_NAME=listeem_${PROJECT_ID}
     MYSQL_USER=user1
     MYSQL_PASSWORD=pass1
     MYSQL_ROOT_PASSWORD=rootpassword
