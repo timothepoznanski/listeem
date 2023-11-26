@@ -5,7 +5,6 @@ MYSQL_DATABASE=listeem_container_db                  # No need to change it but 
 KEY_TO_ENCRYPT_DECRYPT_DB=XXXX                       # For exemple `5465sdfsd63774sdf654sdf`
 HTTP_PORT=8077                                       # No need to change it but if you need you can
 HTTPS_PORT=8078                                      # No need to change it but if you need you can
-PHPMYADMIN_PORT=8081                                 # No need to change it but if you need you can
 SERVER_NAME=XXXXXXXXX                                # For exemple `exemple.com` or `localhost`
 #SSL_CERT_FILE=/etc/apache2/ssl/fullchain.pem        # Uncomment if you provide your own certificate for https into ssl folder
 #SSL_KEY_FILE=/etc/apache2/ssl/privkey.pem           # Uncomment if you provide your own certificate for https into ssl folder
