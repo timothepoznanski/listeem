@@ -59,9 +59,9 @@ Listeem is provided in the form of a Docker container publicly stored on Docker 
 
 4. **(Optional) Add your own SSL certificate for HTTPS:**
     
-    Create a folder named `ssl` and add your `privkey.pem` and `fullchain.pem` files to this folder. 
+    Add your `privkey.pem` and `fullchain.pem` files to the `ssl` folder. 
     
-    /!\ They have to be named exactly this way.
+    /!\ They have to be named exactly `privkey.pem` and `fullchain.pem`.
 
     Uncomment `SSL_CERT_FILE=/etc/apache2/ssl/fullchain.pem` and `SSL_KEY_FILE=/etc/apache2/ssl/privkey.pem` in `.env` file.
 
