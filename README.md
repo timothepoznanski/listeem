@@ -12,7 +12,7 @@ Among the many to-do list tools already available, it's not always easy to find 
 
 ## Screenshot
 
-![2023-11-25_13h01_58](https://github.com/timothepoznanski/listeem/assets/8541705/828aa4d2-e2f0-4ec4-a481-57d614c92815)
+![2023-11-26_20h48_29](https://github.com/timothepoznanski/listeem/assets/8541705/9810b8a1-58d2-408d-8ecb-c92ea4c3205f)
 
 ## Features
 
