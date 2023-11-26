@@ -67,6 +67,11 @@ Listeem is provided in the form of a Docker container publicly stored on Docker 
    
     ```bash
     docker compose up -d
+
+    ou
+
+    podman-compose up -d
+   
     ```
 
     Now, the Listeem application should be up and running. 
