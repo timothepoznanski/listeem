@@ -14,10 +14,6 @@ Among the many to-do list tools already available, it's not always easy to find 
 
 ![2023-11-26_20h48_29](https://github.com/timothepoznanski/listeem/assets/8541705/9810b8a1-58d2-408d-8ecb-c92ea4c3205f)
 
-## Features
-
-Check out some features of Listeem at [Features Link](https://listeem.com/features.php)!
-
 ## Installation
 
 Listeem is provided in the form of a Docker container publicly stored on Docker Hub. To get started, follow these steps:
