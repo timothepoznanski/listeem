@@ -119,3 +119,10 @@ Bad Request
  ```
 
 You are probably trying to open the url on HTTPS port (probably 8078). Add 'https://' in front of your url or change port to HTTP port (probably 8077).
+
+## Updates
+
+- If you want to update Listeem to the latest version, stop and remove your running container (don't worry, your data are stored on your host) and run the step 5 (Run the application).  
+
+
+- If you want to change something into the config file (your password for example), stop and remove your running container (don't worry, your data are stored on your host), update your .env file and run the step 5 (Run the application).
