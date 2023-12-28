@@ -88,7 +88,7 @@ Listeem is provided in the form of a Docker container publicly stored on Docker 
 
 ## Contributing
 
-If you want to contribute to the code, don't hesitate to open a pull request. Thanks!
+If you want to contribute to this project, please visit [this link](https://github.com/Pozinux/listeem-app) where you will find the source code of Listeem. Don't hesitate to open a pull request. Thanks!
 
 ## Possible errors
 
