@@ -122,7 +122,7 @@ You are probably trying to open the url on HTTPS port (probably 8078). Add 'http
 
 ## Updates
 
-- If you want to update Listeem to the latest version from Docker Hub, stop and remove your running container (don't worry, your data are stored on your host), remove the image tagged latest on your host and run the step 5 (Run the application). This will download the latest version from Docker Hub and launch a new container from it.
+- If you want to update Listeem to the latest version from Docker Hub, stop and remove your running container (don't worry, your data are stored on your host), remove the image with the latest tag on your host and run the step 5 (Run the application). This will download the latest version from Docker Hub and launch a new container from it.
 
 
 - If you want to keep your container but change something into the config file (your password for example), stop and remove your running container (don't worry, your data are stored on your host), update your .env file and run the step 5 (Run the application). This will launch a new container from the image already present on your host but will also use the new .env config file.
