@@ -38,6 +38,7 @@ Listeem is provided in the form of a Docker container publicly stored on Docker 
     Example :
 
     ```bash
+    MYSQL_USER=dbserver
     MYSQL_USER=user1
     MYSQL_PASSWORD=pass1
     MYSQL_ROOT_PASSWORD=rootpassword
